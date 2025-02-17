@@ -4,7 +4,7 @@ import InfoAvion from "@/pages/InfoAvion.vue";
 
 const routes = [
     {path: '/', name: 'Home', component: Home},
-    {path: '/info/:code', name: 'InfoAvion', component: InfoAvion},
+    {path: '/info/:code&:latitude&:longitude', name: 'InfoAvion', component: InfoAvion},
 
     
 ];
