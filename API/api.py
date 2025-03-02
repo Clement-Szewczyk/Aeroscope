@@ -17,7 +17,7 @@ def find_aircraft(icao24):
             for row in reader:
                 if row and len(row) > 1:
                     row = [field if field.strip() else None for field in row]
-                    if row[0] == "'" + icao24 + "'":
+                    if row[0] == icao24:
                         return row
     except FileNotFoundError:
         return None

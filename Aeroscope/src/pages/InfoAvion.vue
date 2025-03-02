@@ -13,7 +13,7 @@ const reqst = ref(null);
 const loading = ref(true); // Ajout de la propriété loading
 
 console.log("longitude", longitude, "\n latitude", latitude)
-
+console.log("code", code)
 const getdata = async () => {
     loading.value = true; // Début du chargement
     try {
