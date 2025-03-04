@@ -17,7 +17,7 @@ export const useAvionStore = defineStore('avion', {
           console.error("Erreur lors de la récupération des avions :", error)
         }
       },
-      setAvionSelectionne(avion) {
+      setAvionSexlectionne(avion) {
         this.avionSelectionne = avion
       },
     },

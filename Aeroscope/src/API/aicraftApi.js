@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const aicraftApi = axios.create({
-    baseURL: 'http://127.0.0.1:5000', // Base URL de l'API Flask
+    baseURL: 'https://aeroscopeapi-b8cpbnbabsakg5ex.francecentral-01.azurewebsites.net/', // Base URL de l'API Flask
     timeout: 5000,
 })
 
